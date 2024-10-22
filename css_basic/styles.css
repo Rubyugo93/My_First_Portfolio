@@ -1,0 +1,79 @@
+/* Apply Flexbox to the layout */
+body {
+    display: flex;
+    flex-direction: column; /* Stack header, main, and footer vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row; /* Align article and aside side by side */
+    flex: auto; /* Automatically adjust height */
+}
+
+article {
+    flex: 2; /* Article takes 2/3 of the space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+aside {
+    flex: 1; /* Aside takes 1/3 of the space */
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #eee;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #ffcc00; /* Gold color on hover */
+}
+
+footer {
+    background-color: #282c34;
+    padding: 10px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
