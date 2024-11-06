@@ -1,0 +1,96 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #1E3A5F; /* Navy blue background */
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    color: #ffffff; /* Default color for all h1, h2, h3 */
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #1E3A5F; /* Contrast against light background in top-container */
+}
+
+.top-container {
+    background-color: #E4F9F5; /* Original light color */
+    padding: 30px 20px;
+}
+
+.top-container h1, .top-container h2, .top-container h3 {
+    color: #1E3A5F; /* Set the text color to navy blue for top container text */
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.middle-container {
+    padding: 40px 20px;
+    background-color: #1E3A5F; /* Match the main navy blue background */
+}
+
+.skills-list, .social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.skills-list li, .social-links a {
+    font-size: 1.1em;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #FFA726; /* Soft orange for link color */
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.bottom-container {
+    background-color: #FF6500;
+    padding: 20px;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 5px 0;
+}
